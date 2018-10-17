@@ -1,0 +1,25 @@
+{
+    "name": "seagoj/fries",
+    "authors": [
+        {
+            "name": "Jeremy Seago",
+            "email": "seagoj@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^7.4"
+    },
+    "autoload": {
+      "psr-4": {
+        "Bonfyre\\Kitchen\\": "src/"
+      }
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "Bonfyre\\Kitchen\\Tests\\": "tests/"
+      }
+    },
+    "scripts": {
+        "test": ["vendor/bin/phpunit tests"]
+    }
+}
